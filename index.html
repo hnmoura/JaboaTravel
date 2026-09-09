@@ -59,15 +59,15 @@
     <ul class="slides">
 
         <li>
-            <img src="img/philli.jpg" alt="Filipinas">
+            <img src="img/vietnam.png" alt="vietnam">
 
             <div class="caption center-align">
-                <h3>Viagens para todos os orçamentos</h3>
+                <h3>Viagens internacionais e nacionais </h3>
             </div>
         </li>
 
         <li>
-            <img src="img/patagonia.jpeg" alt="Patagônia">
+            <img src="img/patagonia.jpeg" alt="patagonia">
 
             <div class="caption left-align">
                 <h3>Pacotes individuais e em grupo</h3>
@@ -75,7 +75,7 @@
         </li>
 
         <li>
-            <img src="img/amsterdan.jpeg" alt="Amsterdam">
+            <img src="img/dc.jpg" alt="dc">
 
             <div class="caption right-align">
                 <h3>Hospedagem e translados</h3>
@@ -84,7 +84,67 @@
 
     </ul>
 </div>
+<!-- Search Bar -->
+ 
+  <nav>
+    <div class="nav-wrapper">
+      <form>
+        <div class="input-field">
+          <input id="search" type="search" required>
+          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+          <i class="material-icons">close</i>
+        </div>
+      </form>
+    </div>
+  </nav>
+<!-- Cards --> 
+<section id="populares" class="section">
 
+<div class="container">
+
+    <div class="center-align">
+        <h4>Destinos mais populares</h4>
+        <p class="grey-text">
+        </p>
+    </div>
+
+    <div class="row">
+
+        <!-- CARD 1 -->
+        <div class="col s12 m6 l4">
+
+            <div class="card">
+
+                <div class="card-image">
+
+                    <img src="img/turquia.jpg" alt="turquia">
+
+                    <span class="card-title">
+                        Turquia
+                    </span>
+
+                </div>
+
+                <div class="card-content">
+
+                    <p>
+                        Descubra paisagens incríveis,
+                        e aproveite um passeio mágico de balão na Turquia.
+                    </p>
+
+                </div>
+
+                <div class="card-action">
+
+                    <a href="#">
+                        Ver destino
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
 
 <!-- Materialize JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -97,7 +157,7 @@
 
         M.Slider.init(slider, {
             indicators: false,
-            height: 500,
+
             transition: 500,
             interval: 6000
         });
