@@ -5,260 +5,366 @@
     <!-- Import Google Icon Font -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-<!-- Import Materialize CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Import Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-<!-- Let browser know website is optimized for mobile -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Let browser know website is optimized for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<title>JaboaTravel</title>
+    <title>JaboaTravel</title>
 
- 
+
 </header>
 
 <main>
 
-<!-- NAVBAR -->
-<div class="navbar-fixed">
-    <nav class="teal">
-        <div class="container">
-            <div class="nav-wrapper">
+    <!-- NAVBAR -->
+    <div class="navbar-fixed">
+        <nav class="cyan darken-1">
+            <div class="container">
+                <div class="nav-wrapper">
 
-                <a href="#" class="brand-logo">
-                    JaboaTravel
-                </a>
+                    <a href="#" class="brand-logo">
+                        JaboaTravel
+                    </a>
 
-                <a href="#" data-target="mobile-nav" class="sidenav-trigger">
-                    <i class="material-icons">menu</i>
-                </a>
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                        <i class="material-icons">menu</i>
+                    </a>
 
-                <ul class="right hide-on-med-and-down">
-                    <li>
-                        <a href="#pacotes">Pacotes</a>
-                    </li>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="#pacotes">Pacotes</a>
+                        </li>
 
-                    <li>
-                        <a href="#passagens">Passagens Aéreas</a>
-                    </li>
+                        <li>
+                            <a href="#passagens">Passagens Aéreas</a>
+                        </li>
 
-                    <li>
-                        <a href="#populares">Mais populares</a>
-                    </li>
-                </ul>
+                        <li>
+                            <a href="#populares">Mais populares</a>
+                        </li>
+                    </ul>
 
+                </div>
             </div>
+        </nav>
+    </div>
+
+
+    <!-- SLIDER -->
+    <div class="slider">
+        <ul class="slides">
+
+            <li>
+                <img src="img/vietnam.png" alt="vietnam">
+
+                <div class="caption center-align">
+                    <h3>Viagens internacionais e nacionais </h3>
+                </div>
+            </li>
+
+            <li>
+                <img src="img/patagonia.jpeg" alt="patagonia">
+
+                <div class="caption left-align">
+                    <h3>Pacotes individuais e em grupo</h3>
+                </div>
+            </li>
+
+            <li>
+                <img src="img/dc.jpg" alt="dc">
+
+                <div class="caption right-align">
+                    <h3>Hospedagem e translados</h3>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+    <!-- Search Bar -->
+
+    <nav>
+        <div class="nav-wrapper">
+            <form>
+                <div class="input-field teal lighten-3">
+                    <input id="search" type="search" required>
+                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                    <i class="material-icons">close</i>
+                </div>
+            </form>
         </div>
     </nav>
-</div>
+    <!-- Cards -->
+    <section id="populares" class="section grey lighten-4">
 
+        <div class="container">
 
-<!-- SLIDER -->
-<div class="slider">
-    <ul class="slides">
+            <section class="center-align">
+                <h4>Destinos mais populares</h4>
+                <p class="grey-text">
+                </p>
+            </section>
 
-        <li>
-            <img src="img/vietnam.png" alt="vietnam">
+            <div class="row">
 
-            <div class="caption center-align">
-                <h3>Viagens internacionais e nacionais </h3>
-            </div>
-        </li>
+                <!-- CARD 1 -->
+                <div class="col s12 m6 l4">
 
-        <li>
-            <img src="img/patagonia.jpeg" alt="patagonia">
+                    <div class="card">
 
-            <div class="caption left-align">
-                <h3>Pacotes individuais e em grupo</h3>
-            </div>
-        </li>
+                        <div class="card-image">
 
-        <li>
-            <img src="img/dc.jpg" alt="dc">
+                            <img src="img/turquia1.jpg" alt="turquia">
 
-            <div class="caption right-align">
-                <h3>Hospedagem e translados</h3>
-            </div>
-        </li>
+                            <span class="card-title">
+                                Turquia
+                            </span>
 
-    </ul>
-</div>
-<!-- Search Bar -->
- 
-  <nav>
-    <div class="nav-wrapper">
-      <form>
-        <div class="input-field">
-          <input id="search" type="search" required>
-          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-          <i class="material-icons">close</i>
-        </div>
-      </form>
-    </div>
-  </nav>
-<!-- Cards --> 
-<section id="populares" class="section">
+                        </div>
 
-<div class="container">
+                        <div class="card-content">
 
-    <div class="center-align">
-        <h4>Destinos mais populares</h4>
-        <p class="grey-text">
-        </p>
-    </div>
+                            <p>
+                                Descubra paisagens incríveis,
+                                e aproveite um passeio mágico de balão na Turquia.
+                            </p>
 
-    <div class="row">
+                        </div>
 
-        <!-- CARD 1 -->
-        <div class="col s12 m6 l4">
+                        <div class="card-action">
 
-            <div class="card">
+                            <a class="btn amber darken-2" href="#">
+                                Ver destino
+                            </a>
 
-                <div class="card-image">
+                        </div>
 
-                    <img src="img/turquia.jpg" alt="turquia">
-
-                    <span class="card-title">
-                        Turquia
-                    </span>
+                    </div>
 
                 </div>
 
-                <div class="card-content">
+                <!-- CARD 2 -->
+                <div class="col s12 m6 l4">
 
-                    <p>
-                        Descubra paisagens incríveis,
-                        e aproveite um passeio mágico de balão na Turquia.
-                    </p>
+                    <div class="card">
 
-                </div>
+                        <div class="card-image">
 
-                <div class="card-action">
+                            <img src="img/bariloche.png" alt="bariloche">
 
-                    <a href="#">
-                        Ver destino
-                    </a>
+                            <span class="card-title">
+                                Argentina
+                            </span>
 
-                </div>
+                        </div>
 
-            </div>
+                        <div class="card-content">
 
-        </div>
+                            <p>
+                                Visite o famoso destino conhecido por suas paisagens alpinas e lagos cristalinos.
+                            </p>
 
-        <!-- CARD 2 -->
-        <div class="col s12 m6 l4">
+                        </div>
 
-            <div class="card">
+                        <div class="card-action">
 
-                <div class="card-image">
+                            <a class="btn amber darken-2" href="#">
+                                Ver destino
+                            </a>
 
-                    <img src="img/bariloche.png" alt="bariloche">
+                        </div>
 
-                    <span class="card-title">
-                        Argentina
-                    </span>
-
-                </div>
-
-                <div class="card-content">
-
-                    <p>
-                        Visite o famoso destino na Patagônia Argentina, conhecido por suas paisagens alpinas e lagos cristalinos.
-                    </p>
+                    </div>
 
                 </div>
 
-                <div class="card-action">
+                <!-- CARD 3 -->
+                <div class="col s12 m6 l4">
 
-                    <a href="#">
-                        Ver destino
-                    </a>
+                    <div class="card">
 
-                </div>
+                        <div class="card-image">
 
-            </div>
+                            <img src="img/atacama.jpg" alt="chile">
 
-        </div>
+                            <span class="card-title">
+                                Chile
+                            </span>
 
-        <!-- CARD 3 -->
-        <div class="col s12 m6 l4">
+                        </div>
 
-            <div class="card">
+                        <div class="card-content">
 
-                <div class="card-image">
+                            <p>
+                                Conheça o deserto não polar mais seco e mais alto do mundo, o Deserto do Atacama.
+                            </p>
 
-                    <img src="img/atacama.jpg" alt="chile">
+                        </div>
 
-                    <span class="card-title">
-                        Chile
-                    </span>
+                        <div class="card-action ">
 
-                </div>
+                            <a class="btn amber darken-2" href="#">
+                                Ver destino
+                            </a>
 
-                <div class="card-content">
+                        </div>
 
-                    <p>
-                        Conheça o deserto não polar mais seco e mais alto do mundo, o Deserto do Atacama, no Chile.
-                    </p>
-
-                </div>
-
-                <div class="card-action">
-
-                    <a href="#">
-                        Ver destino
-                    </a>
+                    </div>
 
                 </div>
 
-            </div>
+                <!-- CARD 4 -->
+                <div class="col s12 m6 l4">
 
-        </div>
+                    <div class="card">
+
+                        <div class="card-image">
+
+                            <img src="img/coliseu.jpg" alt="italia">
+
+                            <span class="card-title">
+                                Italia
+                            </span>
+
+                        </div>
+
+                        <div class="card-content">
+
+                            <p>
+                                Conheça o anfiteatro oval localizado no centro da cidade de Roma, capital da Itália.
+                            </p>
+
+                        </div>
+
+                        <div class="card-action">
+
+                            <a class="btn amber darken-2" href="#">
+                                Ver destino
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- CARD 5 -->
+                <div class="col s12 m6 l4">
+
+                    <div class="card">
+
+                        <div class="card-image">
+
+                            <img src="img/Le_parc_du_Retiro.jpg" alt="espanha">
+
+                            <span class="card-title">
+                                Espanha
+                            </span>
+
+                        </div>
+
+                        <div class="card-content">
+
+                            <p>
+                                O Parque do Retiro de Madrid foi criado entre 1630 e 1640 e tem uma área de 118 hectares.
+                            </p>
+
+                        </div>
+
+                        <div class="card-action">
+
+                            <a class="btn amber darken-2" href="#">
+                                Ver destino
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- CARD 6 -->
+                <div class="col s12 m6 l4">
+
+                    <div class="card">
+
+                        <div class="card-image">
+
+                            <img src="img/cataratas.jpg" alt="canada">
+
+                            <span class="card-title">
+                                Canadá
+                            </span>
+
+                        </div>
+
+                        <div class="card-content">
+
+                            <p>
+                                As Cataratas do Niágara são um agrupamento de grandes cataratas no rio Niágara.
+                            </p>
+
+                        </div>
+
+                        <div class="card-action ">
+
+                            <a class="btn amber darken-2" href="#">
+                                Ver destino
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
 
 
 
-<!-- Materialize JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+                <!-- Materialize JavaScript -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-<!-- Slider -->
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
+                <!-- Slider -->
+                <script>
+                    document.addEventListener('DOMContentLoaded', function () {
 
-        const slider = document.querySelector('.slider');
+                        const slider = document.querySelector('.slider');
 
-        M.Slider.init(slider, {
-            indicators: false,
+                        M.Slider.init(slider, {
+                            indicators: false,
 
-            transition: 500,
-            interval: 6000
-        });
+                            transition: 500,
+                            interval: 6000
+                        });
 
-    });
-</script>
+                    });
+                </script>
 
 </main>
 
-<footer class="page-footer">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
+<footer class="page-footer cyan darken-3">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
                 <h5 class="white-text">JaboaTravel</h5>
-                <p class="grey-text text-lighten-4">Descubra o mundo, viva cada destino. Sua próxima aventura começa aqui!</p>
-              </div>
-              <div class="col l4 offset-l2 s12">
+                <p class="grey-text text-lighten-4">Descubra o mundo, viva cada destino. Sua próxima aventura começa
+                    aqui!</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Serviços</h5>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Pacotes</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Passagens</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Mais populares</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Pacotes</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Passagens</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Mais populares</a></li>
                 </ul>
-              </div>
             </div>
-          </div>
-          <div class="footer-copyright">
-            <div class="container">
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
             © 2026 Copyright
-            </div>
-          </div>
-        </footer>
+        </div>
+    </div>
+</footer>
 
 </html>
