@@ -50,7 +50,19 @@
             </div>
         </nav>
     </div>
+    <ul class="sidenav" id="mobile-nav">
+        <li>
+            <a href="#pacotes">Pacotes</a>
+        </li>
 
+        <li>
+            <a href="#passagens">Passagens Aéreas</a>
+        </li>
+
+        <li>
+            <a href="#populares">Mais populares</a>
+        </li>
+    </ul>
 
     <!-- SLIDER -->
     <div class="slider">
@@ -267,7 +279,8 @@
                         <div class="card-content">
 
                             <p>
-                                O Parque do Retiro de Madrid foi criado entre 1630 e 1640 e tem uma área de 118 hectares.
+                                O Parque do Retiro de Madrid foi criado entre 1630 e 1640 e tem uma área de 118
+                                hectares.
                             </p>
 
                         </div>
@@ -337,6 +350,8 @@
                             interval: 6000
                         });
 
+                        let elems = document.querySelectorAll('.sidenav');
+                        let instances = M.Sidenav.init(elems);
                     });
                 </script>
 
